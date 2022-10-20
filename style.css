@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://images.unsplash.com/photo-1595411425732-e69c1abe2763?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80)
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #bebebe;
+    gap: 1em;
+    margin: 2em;
+    padding: 1em;
+    border: 3px solid #bebebe;
+    border-radius: 5px;
+    min-height: 35vw;
+}
+
+.avatar {
+    min-width: 10vw;
+    min-height: 10vw;
+}
+
+.moves {
+    border: 2px solid;
+}
